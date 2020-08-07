@@ -7,7 +7,7 @@
     * `emulator` - `<sdk>/emulator/`
 * find the target app on your phone
 ```sh
-adb shell dumpsys package | grep -i ${APP}
+adb shell cmd package list packages -f | grep -i ${APP}
 adb pull /data/app/.../base.apk
 ```
 * patch the target app so you can proxy traffic
