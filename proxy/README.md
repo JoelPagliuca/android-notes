@@ -30,7 +30,7 @@ adb push ${HASH}.0 /system/etc/security/cacerts
 * run the emulator
 ```sh
 emulator -avd ${AVD_NAME} -http-proxy http://${LAN_IP}:${PORT} -writable-system -netdelay none -netspeed full -no-boot-anim -no-audio -selinux permissive
-# I like turning shit off
+# I like turning this off
 ```
 
 ## Resources
